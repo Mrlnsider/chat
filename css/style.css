@@ -1,0 +1,20 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+*:after, *:berore {
+	box-sizing: border-box;
+}
+.clearfix:after {
+	content: "";
+	display: block;
+	width: 100%;
+	clear: both;
+}
+* { font-family: monospace, Arial; }
+body { color: #eee; }
+input { margin: 40px; padding: 5px 10px; width: 80%; }
+
